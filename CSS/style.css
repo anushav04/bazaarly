@@ -387,7 +387,22 @@ body {
     justify-content: center;
     transform: translateY(-10px);
 }
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+}
 
+.logo img{
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
 .deal-card .qty-box .qty {
     font-size: 14px;
     font-weight: 600;
